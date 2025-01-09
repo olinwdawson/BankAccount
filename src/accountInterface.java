@@ -1,5 +1,6 @@
 public class accountInterface {
     public static void main(String[] args) {
-        while(true)
+        accountMain main = new accountMain();
+        main.init(5);
     }
 }
