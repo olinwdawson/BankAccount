@@ -5,8 +5,9 @@ public class accountInterface {
         accountMain main = new accountMain();
         main.init();
         Scanner scan = new Scanner(System.in);
-
+        System.out.println(main.paymentDay());
         while(true){
+            System.out.println(main.transactionCount());
             System.out.println("\nSelect action: \n1 - View Account Information\n2 - Deposit\n3 - Withdraw\n4 - Change Owner\n5 - Interest Rate");
             int choice = scan.nextInt();
             switch(choice){
